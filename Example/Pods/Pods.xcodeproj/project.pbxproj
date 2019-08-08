@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B1E736D8388BBEFFBEC3448461A2482 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124AAC62CE3E5EDE678DF55CF340ACC /* ReplaceMe.swift */; };
+		04ADA6EA22FC253000FE496B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 04ADA6E922FC253000FE496B /* .gitkeep */; };
+		04ADA6EC22FC255200FE496B /* MTRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADA6EB22FC255200FE496B /* MTRequestManager.swift */; };
 		35B8FFB281D41896250E53977C1C0532 /* Pods-MTRequestManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F902970CD36A8E877FCF97707F9E7AA /* Pods-MTRequestManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F87B6F4C2B08A01B83F6E6571A134B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5027A8B50A14B05EF9F15712BBB805E8 /* MTRequestManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D4A64D7F10E95145E785C669E4A9A5 /* MTRequestManager-dummy.m */; };
@@ -28,9 +29,10 @@
 
 /* Begin PBXFileReference section */
 		02FCE2DF371986BA9DC6B0F0FC80C52D /* Pods-MTRequestManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTRequestManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0FA64B8A91E29D0BB00B73F8DEE9B51B /* Pods_MTRequestManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTRequestManager_Tests.framework; path = "Pods-MTRequestManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1124AAC62CE3E5EDE678DF55CF340ACC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MTRequestManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		1128F6CAFE2A2B61EBF25FED55C46FBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		04ADA6E922FC253000FE496B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		04ADA6EB22FC255200FE496B /* MTRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTRequestManager.swift; sourceTree = "<group>"; };
+		0FA64B8A91E29D0BB00B73F8DEE9B51B /* Pods_MTRequestManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTRequestManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1128F6CAFE2A2B61EBF25FED55C46FBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		19D4A64D7F10E95145E785C669E4A9A5 /* MTRequestManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTRequestManager-dummy.m"; sourceTree = "<group>"; };
 		30A395D680909D086631D10333E41FDD /* MTRequestManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTRequestManager.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -40,15 +42,15 @@
 		7AEF135DEE592A5AB906EB4AFADD94F3 /* Pods-MTRequestManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTRequestManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7DB13E23F455406FCBF73CA06C48F062 /* Pods-MTRequestManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTRequestManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F902970CD36A8E877FCF97707F9E7AA /* Pods-MTRequestManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTRequestManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		92601B29E08F2AD189D07795D46656B6 /* MTRequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTRequestManager.framework; path = MTRequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92601B29E08F2AD189D07795D46656B6 /* MTRequestManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTRequestManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AEC3BB29D7F931D928F75DC0B4BE0CA1 /* Pods-MTRequestManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTRequestManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		B7B225E857038F1260088FA490695898 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7B225E857038F1260088FA490695898 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BB289D3599D8DE35D7EDC77432074048 /* Pods-MTRequestManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTRequestManager_Tests.modulemap"; sourceTree = "<group>"; };
 		C558157EA3A2292CFE4B009A76B8F5D2 /* Pods-MTRequestManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTRequestManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		DB366321B8C6525EA98AC9F6D266F29A /* MTRequestManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTRequestManager.xcconfig; sourceTree = "<group>"; };
 		E43C3294F6D509223D70AD0321D5852C /* MTRequestManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTRequestManager-prefix.pch"; sourceTree = "<group>"; };
-		E4CC0CB64636D6C79F3D65400EEDD677 /* MTRequestManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTRequestManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4CC0CB64636D6C79F3D65400EEDD677 /* MTRequestManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MTRequestManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEA13657644EFB1009E3A8F05223E2C1 /* Pods-MTRequestManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTRequestManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04ADA6E822FC253000FE496B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04ADA6E922FC253000FE496B /* .gitkeep */,
+				04ADA6EB22FC255200FE496B /* MTRequestManager.swift */,
+			);
+			name = Classes;
+			path = MTRequestManager/Classes;
+			sourceTree = "<group>";
+		};
 		06EE26060657B17C5FC871E74DACEF9D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +114,7 @@
 		9C03E1412E30723F1A25C2779D46A483 /* MTRequestManager */ = {
 			isa = PBXGroup;
 			children = (
-				1124AAC62CE3E5EDE678DF55CF340ACC /* ReplaceMe.swift */,
+				04ADA6E822FC253000FE496B /* Classes */,
 				06EE26060657B17C5FC871E74DACEF9D /* Pod */,
 				DB5427DFE603D8F9916994F3521E4A88 /* Support Files */,
 			);
@@ -243,6 +255,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					A63FADE535348E49C23CD9476BD707B8 = {
+						LastSwiftMigration = 1030;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ADA6EA22FC253000FE496B /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ADA6EC22FC255200FE496B /* MTRequestManager.swift in Sources */,
 				5027A8B50A14B05EF9F15712BBB805E8 /* MTRequestManager-dummy.m in Sources */,
-				1B1E736D8388BBEFFBEC3448461A2482 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB366321B8C6525EA98AC9F6D266F29A /* MTRequestManager.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -333,6 +352,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -426,8 +446,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -535,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB366321B8C6525EA98AC9F6D266F29A /* MTRequestManager.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
