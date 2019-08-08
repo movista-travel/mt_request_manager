@@ -1,0 +1,16 @@
+PODS:
+  - MTRequestManager (0.1.0)
+
+DEPENDENCIES:
+  - MTRequestManager (from `../`)
+
+EXTERNAL SOURCES:
+  MTRequestManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTRequestManager: 3cf4dbecd67b50c523c25ee7c75f949d169ec860
+
+PODFILE CHECKSUM: ce55d1ba863108dc7d9b1e2098081e1e3010c69d
+
+COCOAPODS: 1.7.2

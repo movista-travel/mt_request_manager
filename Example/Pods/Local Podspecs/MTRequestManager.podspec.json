@@ -1,0 +1,22 @@
+{
+  "name": "MTRequestManager",
+  "version": "0.1.0",
+  "summary": "A short description of MTRequestManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/juicyfru1t/MTRequestManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "juicyfru1t": "akhodko@movista.ru"
+  },
+  "source": {
+    "git": "https://github.com/juicyfru1t/MTRequestManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTRequestManager/Classes/**/*"
+}
