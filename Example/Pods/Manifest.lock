@@ -1,15 +1,22 @@
 PODS:
-  - MTRequestManager (0.1.0)
+  - MTRequestManager (0.1.0):
+    - SwiftyJSON
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - MTRequestManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   MTRequestManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MTRequestManager: 3cf4dbecd67b50c523c25ee7c75f949d169ec860
+  MTRequestManager: 3eed7d733badd469512752d53874e8653ee44f82
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: ce55d1ba863108dc7d9b1e2098081e1e3010c69d
 

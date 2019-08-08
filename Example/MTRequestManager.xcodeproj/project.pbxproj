@@ -175,10 +175,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MTRequestManager_Tests/Pods-MTRequestManager_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MTRequestManager/MTRequestManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTRequestManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,9 +1,8 @@
 {
   "name": "MTRequestManager",
   "version": "0.1.0",
-  "summary": "A short description of MTRequestManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/juicyfru1t/MTRequestManager",
+  "summary": "MTRequestManager",
+  "homepage": "https://github.com/movista-travel/mt_request_manager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,20 @@
     "juicyfru1t": "akhodko@movista.ru"
   },
   "source": {
-    "git": "https://github.com/juicyfru1t/MTRequestManager.git",
+    "git": "https://github.com/movista-travel/mt_request_manager.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MTRequestManager/Classes/**/*"
+  "source_files": "MTRequestManager/Classes/**/*",
+  "swift_versions": [
+    "5.0"
+  ],
+  "dependencies": {
+    "SwiftyJSON": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

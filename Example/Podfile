@@ -1,6 +1,4 @@
 use_frameworks!
 target 'MTRequestManager_Tests' do
   pod 'MTRequestManager', :path => '../'
-  
-  
 end
