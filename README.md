@@ -1,0 +1,29 @@
+# MTRequestManager
+
+[![CI Status](https://img.shields.io/travis/juicyfru1t/MTRequestManager.svg?style=flat)](https://travis-ci.org/juicyfru1t/MTRequestManager)
+[![Version](https://img.shields.io/cocoapods/v/MTRequestManager.svg?style=flat)](https://cocoapods.org/pods/MTRequestManager)
+[![License](https://img.shields.io/cocoapods/l/MTRequestManager.svg?style=flat)](https://cocoapods.org/pods/MTRequestManager)
+[![Platform](https://img.shields.io/cocoapods/p/MTRequestManager.svg?style=flat)](https://cocoapods.org/pods/MTRequestManager)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+MTRequestManager is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'MTRequestManager'
+```
+
+## Author
+
+juicyfru1t, akhodko@movista.ru
+
+## License
+
+MTRequestManager is available under the MIT license. See the LICENSE file for more info.
